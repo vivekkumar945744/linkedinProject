@@ -1,3 +1,16 @@
 spring:
   application:
     name: postsService
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/linkedinPostDB
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9010
+  servlet:
+    context-path: /api/v1/posts
