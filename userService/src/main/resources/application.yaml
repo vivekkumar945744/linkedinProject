@@ -12,4 +12,8 @@ spring:
 
 server:
   port: 9020
+  servlet:
+    context-path: /api/v1/users
 
+jwt:
+  secret: dgsdgsd3434dg346534gergt55646t54egdgsthdthrhdthgsdrhrtyrey34564643reg
